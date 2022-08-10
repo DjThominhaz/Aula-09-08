@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Cardpessoas from './componentes/index.js';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+function App(){
+  let nome="Thominhaz";
+  let idade= 21;
+  
+  return(
+    <div className="app">
+          <h1> Hello Wolrd</h1>
+        <Cardpessoas nome = {nome} idade = {idade}/>
+        <Cardpessoas nome = "Davigay" idade = {40}/>
+        <Cardpessoas nome = "AdmViadin" />
+        <Cardpessoas nome = "KaioGG" estilo = "claro" />
+
+
+
     </div>
   );
 }
