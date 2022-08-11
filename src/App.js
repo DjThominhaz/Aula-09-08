@@ -2,7 +2,8 @@ import './App.scss';
 import Cardpessoas from './Componentes/CardPessoas';
 import Contador from './Componentes/Adicionar';
 import Somar from './Componentes/Somar';
-
+import Comp4 from './Componentes/Comp4';
+import Comp5 from './Componentes/Comp5';
 
 function App(){
   let nome="Thominhaz";
@@ -23,7 +24,11 @@ function App(){
           <br></br>
           <Somar> </Somar>
           <br></br>
-                      
+          <Comp4></Comp4>
+          <br></br>
+          <br></br>
+          <Comp5></Comp5>
+        
     </section> 
 
   );
