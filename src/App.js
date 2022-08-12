@@ -4,6 +4,8 @@ import Contador from './Componentes/Adicionar';
 import Somar from './Componentes/Somar';
 import Comp4 from './Componentes/Comp4';
 import Comp5 from './Componentes/Comp5';
+import Comp6 from './Componentes/Comp6';
+import Comp7 from './Componentes/Comp7';
 
 function App(){
   let nome="Thominhaz";
@@ -28,6 +30,10 @@ function App(){
           <br></br>
           <br></br>
           <Comp5></Comp5>
+          <br></br>
+          <Comp6></Comp6>
+          <Comp7></Comp7>
+
         
     </section> 
 
