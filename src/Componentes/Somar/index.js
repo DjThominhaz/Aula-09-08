@@ -1,10 +1,10 @@
 import './index.scss';
 import { useState } from 'react';
 
-export default function Calculadora (props){
-    const [n1, setN1] = useState(0)
-    const [n2, setN2]= useState(0)
-    const [res, setRes]= useState(0)
+export default function Calculadora (){
+    const [n1, setN1] = useState()
+    const [n2, setN2]= useState()
+    const [res, setRes]= useState()
 
 function somar (){
     let x = n1+n2

@@ -6,6 +6,9 @@ import Comp4 from './Componentes/Comp4';
 import Comp5 from './Componentes/Comp5';
 import Comp6 from './Componentes/Comp6';
 import Comp7 from './Componentes/Comp7';
+import Comp8 from './Componentes/Comp8';
+import SituaçãoAluno from './Componentes/SituaçãoAluno';
+
 
 function App(){
   let nome="Thominhaz";
@@ -33,6 +36,9 @@ function App(){
           <br></br>
           <Comp6></Comp6>
           <Comp7></Comp7>
+          <Comp8></Comp8>
+          <SituaçãoAluno></SituaçãoAluno>
+
 
         
     </section> 
