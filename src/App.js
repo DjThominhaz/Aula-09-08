@@ -8,6 +8,9 @@ import Comp6 from './Componentes/Comp6';
 import Comp7 from './Componentes/Comp7';
 import Comp8 from './Componentes/Comp8';
 import SituaçãoAluno from './Componentes/SituaçãoAluno';
+import CompoRend from './Componentes/CompoRend';
+import Comp9 from './Componentes/Comp9';
+import Comp10 from './Componentes/Comp10';
 
 
 function App(){
@@ -38,6 +41,9 @@ function App(){
           <Comp7></Comp7>
           <Comp8></Comp8>
           <SituaçãoAluno></SituaçãoAluno>
+          <CompoRend></CompoRend>
+          <Comp9></Comp9>
+          <Comp10></Comp10>
 
 
         
